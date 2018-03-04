@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#01141a</color>
+    <color name="fon">#023c4e</color>
+    <color name="black">#000</color>
+    <color name="lightorange">#fdf2df</color>
+    <color name="lightorangedark">#ebd6ab</color>
+    <color name="tabindicatorcolor">#606489</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fonseriy">#faf8fa</color>
+    <color name="fonberusa">#76ecc7</color>
+    <color name="fonorange">#f66b4b</color>
+    <color name="fonodarkblue">#445e81</color>
+</resources>

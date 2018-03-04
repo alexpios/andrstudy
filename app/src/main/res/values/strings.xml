@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">StudAndroidBook</string>
+    <string name="text_ls1">Study Android</string>
+    <string name="text_btn1">Начать обучение</string>
+    <string name="text_ls2">Если Вы новичок, то начните обучение с уроков. Они помогут Вам изучить Android с нуля до среднего уровня. И никакой воды!</string>
+    <string name="text_ls3">Полезный материал. Только необходимый исходный код. Тесты для проверки знаний.</string>
+
+
+    <string name="s1">Введение</string>
+    <string name="s2">Структура проекта</string>
+    <string name="s3">Android Layouts</string>
+    <string name="s4">Работа с меню</string>
+    <string name="s5">UI виджеты</string>
+    <string name="s14">XML и JSON</string>
+    <string name="s7">Уведомления</string>
+    <string name="s8">SQLite и Firestore</string>
+    <string name="s9">MYSQL и PHP</string>
+    <string name="s10">Сервисы</string>
+    <string name="s11">Контейнеры в Андроид</string>
+    <string name="s12">Потоки и процессы</string>
+    <string name="s13">Работа с данными</string>
+    <string name="s6">Фрагменты и активити</string>
+
+
+</resources>

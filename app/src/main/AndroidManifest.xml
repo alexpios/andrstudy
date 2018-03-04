@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alexandrkuchinsky.studandroidbook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main" />
+        <activity android:name=".vvedenie" />
+        <activity android:name=".sructofproject" />
+        <activity android:name=".androidLayouts" />
+        <activity android:name=".workWithMenu" />
+        <activity android:name=".uiWidgets" />
+        <activity android:name=".fragmentsActivities" />
+        <activity android:name=".notification" />
+        <activity android:name=".SqliteFirebase" />
+        <activity android:name=".mysqlPHP" />
+        <activity android:name=".services" />
+        <activity android:name=".containersAndroid" />
+        <activity android:name=".potoki" />
+        <activity android:name=".dataWork" />
+        <activity android:name=".xmlJson"></activity>
+    </application>
+
+</manifest>
