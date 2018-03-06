@@ -1,11 +1,14 @@
 package com.example.alexandrkuchinsky.studandroidbook;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +19,7 @@ import java.util.List;
 
 public class Code_fragment extends Fragment {
 View view;
-List<dataItem> lstData;
+
 
     public Code_fragment() {
     }
@@ -25,8 +28,9 @@ List<dataItem> lstData;
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.code_fragment, container, false);
-lstData = new ArrayList<>();
-lstData.add(new dataItem(R.drawable.))
-        return view;
+
+
+
+            return view;
     }
 }

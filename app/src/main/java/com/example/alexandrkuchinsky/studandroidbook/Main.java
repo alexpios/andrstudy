@@ -43,7 +43,7 @@ public class Main extends AppCompatActivity{
 
     }
     //Временно закоментил(отключает переход назад кнопкой на телефоне)
-   // @Override
+    //@Override
 //    public void onBackPressed() {
 //        moveTaskToBack(false);
 //    }
