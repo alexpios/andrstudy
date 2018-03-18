@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alexandrkuchinsky.studandroidbook.historyVersion"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:text="История и версии"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="15dp"/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:textColor="@color/lightorange"
+            android:textStyle="italic"
+            android:text="В 86 % смартфонов, проданных во втором квартале 2014 года, была установлена операционная система Android. На конференции для разработчиков в мае 2017 года Google объявила, что за всю историю Android было активировано более 2 млрд Android-устройств."
+            />
+              <TextView
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="Немного истории:"
+            />
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:paddingTop="5dp"
+            android:text="С момента выхода первой версии в сентябре 2008 года произошло 40 обновлений системы. Эти обновления, как правило, касаются исправления обнаруженных ошибок и добавления новой функциональности в систему. Изначально Google рассчитывала давать версиям Android имена известных роботов, но отказалась из-за проблем с авторскими правами. Каждая версия системы, начиная с версии 1.5, получает собственное кодовое имя на тему сладостей. Кодовые имена присваиваются в алфавитном порядке латинского алфавита. Начиная с версии 3.1, обновления будут выходить раз в 6 месяцев. Последняя версия ОС Android на данный момент — Android 8.1, выпущенная 21 августа 2017 года. На настоящий момент выпущено 17 версий системы."
+
+
+             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:text="Исходя из статистики на 6 февраля 2018 года, доли версий распределились следующим образом:"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dolya"/>
+    </LinearLayout>
+</ScrollView>

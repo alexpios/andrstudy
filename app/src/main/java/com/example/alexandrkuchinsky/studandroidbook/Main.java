@@ -20,6 +20,7 @@ public class Main extends AppCompatActivity{
     GridLayout mainGrid;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.AppTheme);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_page);
         tabLayout =(TabLayout) findViewById(R.id.tablayout_id);
@@ -43,10 +44,10 @@ public class Main extends AppCompatActivity{
 
     }
     //Временно закоментил(отключает переход назад кнопкой на телефоне)
-    //@Override
-//    public void onBackPressed() {
-//        moveTaskToBack(false);
-//    }
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(false);
+    }
 
 
 

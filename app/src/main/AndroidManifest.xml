@@ -4,22 +4,45 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:hardwareAccelerated="false"
-        android:largeHeap="true">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".Main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main" />
-        <activity android:name=".vvedenie" />
+        <activity
+            android:name=".vvedenie"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
         <activity android:name=".sructofproject" />
         <activity android:name=".androidLayouts" />
         <activity android:name=".workWithMenu" />
@@ -30,9 +53,26 @@
         <activity android:name=".mysqlPHP" />
         <activity android:name=".services" />
         <activity android:name=".containersAndroid" />
-        <activity android:name=".potoki" />
+        <activity android:name=".flows" />
         <activity android:name=".dataWork" />
-        <activity android:name=".xmlJson"></activity>
+        <activity android:name=".xmlJson" />
+        <activity
+            android:name=".knowing"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".historyVersion"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".whyAndroid"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".basicsOfConstruction"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".sdkSettings"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+        <activity android:name=".developerOption"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" ></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/topic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/firstParagraph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:textColor="@color/lightorange"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:visibility="invisible" />
+
+
+        <ImageView
+            android:id="@+id/firstImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+          />
+
+
+        <TextView
+            android:id="@+id/secondParagraph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/lightorange"
+            android:textSize="15dp"
+            android:textStyle="italic"
+
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/secondImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0sp"
+            android:visibility="invisible"
+              />
+
+
+        <TextView
+            android:id="@+id/thirdParagraph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/lightorange"
+            android:textSize="15dp"
+
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/thirdImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0sp"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/fourthParagraph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/lightorange"
+            android:textSize="15dp"
+
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/fourthImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0sp"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/fifthParagraph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/lightorange"
+            android:textSize="15dp"
+
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/fifthImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0sp"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/sixParagraph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/lightorange"
+            android:textSize="15dp"
+
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/sixImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0sp"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/sevenParagraph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/lightorange"
+            android:textSize="15dp"
+
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/sevenImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0sp"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/eightParagraph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/lightorange"
+            android:textSize="15dp"
+
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/eightImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0sp"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/nineParagraph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/lightorange"
+            android:textSize="15dp"
+
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/nineImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0sp"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:id="@+id/tenParagraph"
+            android:paddingBottom="0sp"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:textColor="@color/lightorange"
+android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/tenImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0sp"
+            android:visibility="invisible"
+            />
+    </LinearLayout>
+
+</ScrollView>

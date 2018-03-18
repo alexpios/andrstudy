@@ -30,6 +30,9 @@ btnstart.setOnClickListener(new View.OnClickListener() {
     public void onClick(View v) {
         Intent start = new Intent(MainActivity.this, Main.class);
         startActivity(start);
+        finish();
+
+
     }
 });
     }

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.alexandrkuchinsky.studandroidbook.potoki"
+    tools:context="com.example.alexandrkuchinsky.studandroidbook.flows"
     style="@style/Theme.AppCompat.DayNight.NoActionBar"
     android:background="@drawable/background">
     <TextView

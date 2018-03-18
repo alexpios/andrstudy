@@ -3,15 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.alexandrkuchinsky.studandroidbook.vvedenie"
+    android:background="@color/lightorange"
     android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="15dp"
 
-    style="@style/AppTheme"
-    android:background="@drawable/background">
-    <TextView
-        android:textColor="@color/lightorange"
+
+
+    tools:context=".vvedenie">
+
+    <ListView
+
+
+        android:id="@+id/list"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/s1"
-        android:textSize="50dp"/>
+        android:layout_height="wrap_content">
+
+    </ListView>
+
 </LinearLayout>

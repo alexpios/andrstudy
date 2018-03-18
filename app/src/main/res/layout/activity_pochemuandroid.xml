@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alexandrkuchinsky.studandroidbook.whyAndroid"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:text="Почему Android?"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="15dp"/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:textColor="@color/lightorange"
+android:textAlignment="gravity"
+            android:text="Бурное развитие информационных технологий в последнее время привело к тому, что появилось много новых устройств и технологий, таких, как планшеты, смартфоны, нетбуки, другие гаджеты. Мир все больше стал уходить от понятие компьютера как исключительно стандартного персонального компьютера. Смартфоны и прочие гаджеты все более прочно входят в нашу жизнь и становятся привычным дело. Лидирующей платформой среди подобных гаджетов на сегодняшний день является ОС Андроид."
+              />
+
+        <TextView
+            android:textColor="@color/lightorange"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:paddingTop="1dp"
+            android:text="Android используется на самых разных устройствах. Это и смартфоны, и планшеты, и телевизоры, и смарт-часы и ряд других гаджетов. По разным подсчетам за 2017 год этой операционой системой пользуются около 85% владельцев смартфонов, а общее количество пользователей сматрфонов на ОС Android оценивается в 1,5 млрд. человек по всему миру. Cамыми актуальными версиями на нынешний момент являются Android Oreo, Nougat, Marshmallow и Android Lollipop, на которые следует ориентироваться."
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:text="Достоинства"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="10dp"/>
+
+        <TextView
+            android:textColor="@color/lightorange"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:paddingTop="1dp"
+            android:text="- Несмотря на изначальный запрет на установку программ из «непроверенных источников» (например, с карты памяти), это ограничение отключается штатными средствами в настройках аппарата, что позволяет устанавливать программы на телефоны и планшеты без интернет-подключения, а также позволяет всем желающим бесплатно писать приложения для Android и тестировать на своём аппарате."
+            />
+        <TextView
+            android:textColor="@color/lightorange"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:paddingTop="1dp"
+            android:text="- Android, в отличие от iOS, является открытой платформой, что позволяет реализовать на ней больше функций."
+            />
+        <TextView
+            android:textColor="@color/lightorange"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:paddingTop="1dp"
+            android:text="- В версии 4.3 введена поддержка многопользовательского режима."
+            />
+        <TextView
+            android:textColor="@color/lightorange"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:paddingTop="1dp"
+            android:text="- Существуют альтернативные Google Play магазины приложений: Amazon Appstore (англ.), Opera Mobile Store, Yandex.Store, GetUpps!, Mobogenie, F-Droid, 1Mobile Market."
+            />
+        <TextView
+            android:textColor="@color/lightorange"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:paddingTop="1dp"
+            android:text= "- Android доступен для различных аппаратных платформ, таких как ARM, MIPS, x86."
+            />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

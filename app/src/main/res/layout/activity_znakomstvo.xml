@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alexandrkuchinsky.studandroidbook.knowing"
+    android:orientation="vertical"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:text="Знакомство с Android"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="15dp"/>
+    <TextView
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:textColor="@color/lightorange"
+        android:textStyle="italic"
+        android:text="Начинающему программисту Android предстоит основательно потрудиться. Изучать Android — все равно что жить в другой стране: даже если вы говорите на местном языке, на первых порах вы все равно не чувствуете себя как дома. Такое впечатление, что все окружающие понимают что-то такое, чего вы еще не усвоили. У Android существует определенная культура. Носители этой культуры общаются на Java, но знать Java недостаточно. Чтобы понять Android, необходимо изучить много новых идей и приемов. Это приложение поможет вам в освоении азов программирования Android."/>
+<TextView
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:textSize="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textStyle="bold"
+    android:text="Что же такое Android?"
+    />
+    <TextView
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:paddingTop="5dp"
+        android:text="Андроид – открытая операционная система, основанная на ядре Linux. Свое название платформа получила по имени компании-создателя Android Inc. Приложения под операционную систему Android являются программами в нестандартном байт-коде для виртуальной машины Dalvik, для них был разработан формат установочных пакетов .APK. Для работы над приложениями доступно множество библиотек: Bionic (библиотека стандартных функций, несовместимая с glibc); мультимедийные библиотеки на базе PacketVideo OpenCORE (поддерживают такие форматы, как MPEG-4, H.264, MP3, AAC, AMR, JPEG и PNG); SGL (движок двухмерной графики); OpenGL ES 1.0 ES 2.0 (движок трёхмерной графики); Surface Manager (обеспечивает для приложений доступ к 2D/3D); WebKit (готовый движок для веб-браузера; обрабатывает HTML, JavaScript); FreeType (движок обработки шрифтов); SQLite (легковесная СУБД, доступная для всех приложений); SSL (протокол, обеспечивающий безопасную передачу данных по сети). По сравнению с обычными приложениями Linux, приложения Android подчиняются дополнительным правилам: Content Providers — обмен данными между приложениями; Resource Manager — доступ к таким ресурсам, как файлы XML, PNG, JPEG; Notification Manager — доступ к строке состояния; Activity Manager — управление активными приложениями."
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/a567"/>
+</LinearLayout>
+</ScrollView>

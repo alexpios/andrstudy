@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alexandrkuchinsky.studandroidbook.basicsOfConstruction"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:text="Oсновы построения приложения"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="15dp"/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:textColor="@color/lightorange"
+            android:textStyle="italic"
+            android:text="Все, что мы делаем на Android с помоью Java, зависит от Android SDK - если мы создаем приложение под определенную версию, например, для Android Nougat, то у нас должны быть установлены соответствующие иструменты SDK. Это надо учитывать при разработке."/>
+
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15dp"
+            android:paddingTop="5dp"
+android:text="Приложение состоит из активности (activity) и макета (layout): Активность представлена экземпляром Activity — классом из Android SDK. Она отвечает за взаимодействие пользователя с информацией на экране. Чтобы реализовать функциональность, необходимую приложению, разработчик пишет субклассы Activity. В простом приложении бывает достаточно одного субкласса; в сложном приложении их может потребоваться несколько. Макет определяет набор объектов пользовательского интерфейса и их расположение на экране. Макет формируется из определений, написанных на языке XML. Каждое определение используется для создания объекта, выводимого на экране (например, кнопки или текста). Разметка XML в файле определяет пользовательский интерфейс."            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/androidstr"/>
+    </LinearLayout>
+</ScrollView>

@@ -476,7 +476,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/wdata" />
+                        android:src="@drawable/widjeti" />
 
                 </LinearLayout>
 
@@ -506,7 +506,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/xmljson" />
+                        android:src="@drawable/wifi" />
 
                 </LinearLayout>
 
@@ -535,7 +535,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/konteiners" />
+                        android:src="@drawable/menuyha" />
 
                 </LinearLayout>
 
@@ -549,7 +549,7 @@
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="0dp"
                 android:layout_rowWeight="1"
-                app:cardBackgroundColor="@color/fonorange"
+                app:cardBackgroundColor="@color/foncode1"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
@@ -565,7 +565,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/procipotok" />
+                        android:src="@drawable/sqlitep" />
 
                 </LinearLayout>
 
@@ -582,7 +582,7 @@
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="0dp"
                 android:layout_rowWeight="1"
-                app:cardBackgroundColor="@color/fonseriy"
+                app:cardBackgroundColor="@color/foncode1"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
@@ -598,7 +598,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/wdata" />
+                        android:src="@drawable/xmljs" />
 
                 </LinearLayout>
 
@@ -612,7 +612,7 @@
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="0dp"
                 android:layout_rowWeight="1"
-                app:cardBackgroundColor="@color/fonberusa"
+                app:cardBackgroundColor="@color/foncode2"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="10dp">
 
@@ -628,7 +628,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/xmljson" />
+                        android:src="@drawable/design" />
 
                 </LinearLayout>
 

@@ -17,6 +17,7 @@ import android.widget.GridLayout;
 public class Book_fragment extends Fragment {
     GridLayout mainGrid;
     View view;
+
     public Book_fragment() {
 
     }
@@ -24,6 +25,7 @@ public class Book_fragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
+
         view = inflater.inflate(R.layout.book_fragment, container, false);
         GridLayout mainGrid = view.findViewById(R.id.mainGrid);
         setSingleEvent(mainGrid);
@@ -42,7 +44,7 @@ public class Book_fragment extends Fragment {
                 public void onClick(View view) {
                     if (finalI==0){
 
-                        Intent intent = new Intent(getContext().getApplicationContext(), vvedenie.class);
+                        Intent intent = new Intent(getContext(), vvedenie.class);
                         startActivity(intent);
                     } else if (finalI==1) {
 
@@ -89,7 +91,7 @@ public class Book_fragment extends Fragment {
                         startActivity(intent);
                     }else if (finalI==11) {
 
-                        Intent intent = new Intent(getContext().getApplicationContext(), potoki.class);
+                        Intent intent = new Intent(getContext().getApplicationContext(), flows.class);
                         startActivity(intent);
                     }else if (finalI==12) {
 
@@ -108,6 +110,7 @@ public class Book_fragment extends Fragment {
             });
         }
     }
+
 
 
 }
