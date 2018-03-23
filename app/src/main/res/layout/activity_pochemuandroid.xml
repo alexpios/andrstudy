@@ -13,7 +13,7 @@
         android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
-
+            android:textColor="@color/fonberusa"
             android:layout_height="match_parent"
             android:text="Почему Android?"
             android:textSize="30dp"
@@ -42,7 +42,7 @@ android:textAlignment="gravity"
             />
         <TextView
             android:layout_width="match_parent"
-
+            android:textColor="@color/fonberusa"
             android:layout_height="match_parent"
             android:text="Достоинства"
             android:textSize="25dp"

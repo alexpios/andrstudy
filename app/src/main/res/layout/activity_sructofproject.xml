@@ -5,12 +5,18 @@
     android:layout_height="match_parent"
     tools:context="com.example.alexandrkuchinsky.studandroidbook.sructofproject"
     android:orientation="vertical"
-    android:background="@drawable/background">
-    <TextView
-        android:textColor="@color/lightorange"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:text="@string/s2"
-    android:layout_centerInParent="true"
-    android:textSize="45dp"/>
+    android:background="@color/lightorange"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="15dp"
+    >
+    <ListView
+
+
+        android:id="@+id/list2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ListView>
 </RelativeLayout>

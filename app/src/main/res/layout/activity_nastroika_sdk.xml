@@ -12,7 +12,7 @@
         android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
-
+        android:textColor="@color/fonberusa"
         android:layout_height="match_parent"
         android:text="Настройка Android SDK"
         android:textSize="30dp"
@@ -82,7 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="15dp"
-            android:textColor="@color/lightorange"
+            android:textColor="@color/fonberusa"
             android:textStyle="italic"
 
             android:text="Если не планируется использование эмулятора, то данные компоненты не столь важны. И наоборот, если тестирование будет происходить на эмуляторе, то следует установить для этого образ системы Google APIs Intel x86 Atom System Image или Google Play Intel x86 Atom System Image. Далее в этом же окне перейдем на вкладку SDK Tools. Здесь перечислены дополнительные пакеты:"/>
@@ -114,7 +114,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="15dp"
-            android:textColor="@color/lightorange"
+            android:textColor="@color/fonberusa"
             android:textStyle="bold"
 
             android:text="-Android Support Repository"
@@ -125,7 +125,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="15dp"
-            android:textColor="@color/lightorange"
+            android:textColor="@color/fonberusa"
             android:textStyle="bold"
 
             android:text="-Android Support Library"
@@ -136,7 +136,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="15dp"
-            android:textColor="@color/lightorange"
+            android:textColor="@color/fonberusa"
             android:textStyle="bold"
 
             android:text="-Google Play Services"
@@ -147,7 +147,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="15dp"
-            android:textColor="@color/lightorange"
+            android:textColor="@color/fonberusa"
             android:textStyle="bold"
 
             android:text="-Google Repository"
@@ -158,7 +158,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="15dp"
-            android:textColor="@color/lightorange"
+            android:textColor="@color/fonberusa"
             android:textStyle="bold"
 
             android:text="-Google Usb Driver"

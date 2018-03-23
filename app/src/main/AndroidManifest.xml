@@ -38,41 +38,90 @@
         </activity>
         <activity
             android:name=".vvedenie"
-            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
-        <activity android:name=".sructofproject" />
-        <activity android:name=".androidLayouts" />
-        <activity android:name=".workWithMenu" />
-        <activity android:name=".uiWidgets" />
-        <activity android:name=".fragmentsActivities" />
-        <activity android:name=".notification" />
-        <activity android:name=".SqliteFirebase" />
-        <activity android:name=".mysqlPHP" />
-        <activity android:name=".services" />
-        <activity android:name=".containersAndroid" />
-        <activity android:name=".flows" />
-        <activity android:name=".dataWork" />
-        <activity android:name=".xmlJson" />
+        <activity
+            android:name=".sructofproject"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".androidLayouts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".workWithMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".uiWidgets"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragmentsActivities"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".notification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SqliteFirebase"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mysqlPHP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".services"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".containersAndroid"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".flows"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dataWork"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xmlJson"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".knowing"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
         <activity
             android:name=".historyVersion"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
         <activity
             android:name=".whyAndroid"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
         <activity
             android:name=".basicsOfConstruction"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
         <activity
             android:name=".sdkSettings"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
-        <activity android:name=".developerOption"
-            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" ></activity>
+        <activity
+            android:name=".developerOption"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".makeFirstApp"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".strOfPr"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".manifest"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".androidRes"
+            android:screenOrientation="portrait"
+           ></activity>
     </application>
 
 </manifest>

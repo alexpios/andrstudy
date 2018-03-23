@@ -13,7 +13,7 @@
         android:orientation="vertical">
         <TextView
             android:layout_width="match_parent"
-
+            android:textColor="@color/fonberusa"
             android:layout_height="match_parent"
             android:text="Oсновы построения приложения"
             android:textSize="30dp"

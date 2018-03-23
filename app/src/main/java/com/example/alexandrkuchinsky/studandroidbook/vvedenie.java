@@ -16,7 +16,7 @@ public class vvedenie extends Activity {
             "Почему именно Android?",
             "Основы построения приложения",
             "Настройка Android SDK",
-            "Как активировать опцию разработчика",
+            "Активируем опцию разработчика",
             "Собираем первое приложение"
     };
     Integer[] imageId = {
@@ -74,6 +74,11 @@ public class vvedenie extends Activity {
                         else if (list.getItemIdAtPosition(position)==5) {
 
                         Intent intent = new Intent(vvedenie.this, developerOption.class);
+                        startActivity(intent);}
+
+                    else if (list.getItemIdAtPosition(position)==6) {
+
+                        Intent intent = new Intent(vvedenie.this, makeFirstApp.class);
                         startActivity(intent);}
 
                 }

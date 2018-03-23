@@ -15,6 +15,7 @@
             android:layout_width="match_parent"
 
             android:layout_height="match_parent"
+            android:textColor="@color/fonberusa"
             android:text="История и версии"
             android:textSize="30dp"
             android:textStyle="bold"
@@ -31,6 +32,7 @@
             />
               <TextView
             android:paddingLeft="10dp"
+                  android:textColor="@color/fonberusa"
             android:paddingTop="10dp"
             android:textSize="20dp"
             android:layout_width="match_parent"
@@ -45,7 +47,7 @@
             android:textSize="15dp"
             android:paddingTop="5dp"
             android:text="С момента выхода первой версии в сентябре 2008 года произошло 40 обновлений системы. Эти обновления, как правило, касаются исправления обнаруженных ошибок и добавления новой функциональности в систему. Изначально Google рассчитывала давать версиям Android имена известных роботов, но отказалась из-за проблем с авторскими правами. Каждая версия системы, начиная с версии 1.5, получает собственное кодовое имя на тему сладостей. Кодовые имена присваиваются в алфавитном порядке латинского алфавита. Начиная с версии 3.1, обновления будут выходить раз в 6 месяцев. Последняя версия ОС Android на данный момент — Android 8.1, выпущенная 21 августа 2017 года. На настоящий момент выпущено 17 версий системы."
-
+            android:textColor="@color/lightorange"
 
              />
         <TextView
@@ -55,6 +57,7 @@
             android:paddingTop="5dp"
             android:textStyle="italic"
             android:textSize="15dp"
+            android:textColor="@color/fonberusa"
             android:text="Исходя из статистики на 6 февраля 2018 года, доли версий распределились следующим образом:"
             />
         <ImageView

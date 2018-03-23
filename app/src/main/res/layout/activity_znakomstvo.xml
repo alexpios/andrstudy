@@ -12,8 +12,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <TextView
-        android:layout_width="match_parent"
 
+        android:layout_width="match_parent"
+        android:textColor="@color/fonberusa"
         android:layout_height="match_parent"
         android:text="Знакомство с Android"
         android:textSize="30dp"
@@ -21,23 +22,27 @@
         android:textAlignment="center"
         android:padding="15dp"/>
     <TextView
+        android:id="@+id/test"
         android:paddingLeft="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textSize="15dp"
         android:textColor="@color/lightorange"
-        android:textStyle="italic"
+
         android:text="Начинающему программисту Android предстоит основательно потрудиться. Изучать Android — все равно что жить в другой стране: даже если вы говорите на местном языке, на первых порах вы все равно не чувствуете себя как дома. Такое впечатление, что все окружающие понимают что-то такое, чего вы еще не усвоили. У Android существует определенная культура. Носители этой культуры общаются на Java, но знать Java недостаточно. Чтобы понять Android, необходимо изучить много новых идей и приемов. Это приложение поможет вам в освоении азов программирования Android."/>
 <TextView
     android:paddingLeft="10dp"
     android:paddingTop="10dp"
     android:textSize="20dp"
+    android:textAlignment="center"
+    android:textColor="@color/fonberusa"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:textStyle="bold"
     android:text="Что же такое Android?"
     />
     <TextView
+        android:textColor="@color/lightorange"
         android:paddingLeft="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
